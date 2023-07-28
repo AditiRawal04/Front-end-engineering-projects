@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .main{
+        display: flex;
+        flex-direction: column;
+        width:100vw;
+        height:100vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .container{
+        display: flex;
+        flex-direction:row ;
+        width:70vw;
+        height:100vh;
+        flex-wrap: wrap;
+        align-content: center;
+       justify-content: center;
+        
+    }
+    .box{
+        padding:0;
+        display:flex;
+        height:25%;
+        width:20%;
+        border:5px solid orange;
+        flex-direction: column;
+        flex-wrap:nowrap;   
+        justify-content: space-evenly;
+        align-items: center;
+        outline: 5px solid yellow;
+        outline-offset: 1px;
+    }
+    .img{
+        width:80%;
+        height:40%;
+        border:1px solid orange;
+        background-color: orange;
+         display: flex;
+      
+    }
+    .heading{
+        display: flex;
+        font-size:1.2em;
+        font-weight: 900;
+        justify-content: flex-start;
+    }
+    .content{
+         display: flex;
+        margin-left: 5px;
+        font-size: 1em;
+    }
+    @media screen and (max-width: 884px) {
+           .img{
+        width:80%;
+        height:40%;
+        border:1px solid orange;
+        background-color: orange;
+      
+    }
+    .heading{
+        font-size:15px;
+        font-weight: 900;
+        align-content: flex-start;
+    }
+    .content{
+        margin-left: 5px;
+        font-size:10px;
+    }
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+       <div class="box">
+        <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+   
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+       <div class="box">
+         <div class="img"></div>
+        <div class="heading">Product 1</div>
+        <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+       </div>
+    </div>
+    </div>
+</body>
+</html>
